@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/memo"
+        android:layout_width="281dp"
+        android:layout_height="247dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titleMemo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Memo"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ToggleButton
+                android:id="@+id/memo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="1"
+                android:textOn="1"
+            />
+
+            <ToggleButton
+                android:id="@+id/memo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="2"
+                android:textOn="2" />
+
+            <ToggleButton
+                android:id="@+id/memo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="3"
+                android:textOn="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ToggleButton
+                android:id="@+id/memo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="4"
+                android:textOn="4" />
+
+            <ToggleButton
+                android:id="@+id/memo5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="5"
+                android:textOn="5" />
+
+            <ToggleButton
+                android:id="@+id/memo6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="6"
+                android:textOn="6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="369dp"
+            android:layout_height="match_parent">
+
+            <ToggleButton
+                android:id="@+id/memo7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="7"
+                android:textOn="7" />
+
+            <ToggleButton
+                android:id="@+id/memo8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="8"
+                android:textOn="8" />
+
+            <ToggleButton
+                android:id="@+id/memo9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="9"
+                android:textOn="9" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/memoDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:text="DELETE"
+                android:textColor="#0226ED" />
+
+            <Button
+                android:id="@+id/memoCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:text="CANCEL"
+                android:textColor="#0226ED" />
+
+            <Button
+                android:id="@+id/memoOk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:text="OK"
+                android:textColor="#0226ED" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
